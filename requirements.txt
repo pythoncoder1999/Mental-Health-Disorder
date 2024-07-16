@@ -4,7 +4,7 @@ pandas
 matplotlib
 seaborn
 numpy
-sklearn-learn
+sklearn-learn==0.22
 sqlite3
 time
 re

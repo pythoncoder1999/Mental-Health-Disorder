@@ -29,7 +29,7 @@ df2 = pd.read_sql(sql="SELECT * FROM GlobalData1", con=c)
 df3 = pd.read_sql(sql="SELECT * FROM GlobalData2", con=c)
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.QUARTZ])
-
+server = app.server
 app.layout = html.Div([
     dbc.Row([
         dbc.Col([

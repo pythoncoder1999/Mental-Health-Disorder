@@ -4,7 +4,7 @@ pandas
 matplotlib
 seaborn
 numpy
-sklearn
+scikit-learn
 sqlite3
 time
 re

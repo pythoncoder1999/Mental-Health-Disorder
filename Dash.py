@@ -11,7 +11,9 @@ import sqlite3
 import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-import ETL_SQL
+from ETL_Mental_Health_Final import ETL
+
+ETL()
 from Machine_Learning import models
 c = sqlite3.connect('MentalHealth')
 cursor = c.cursor()

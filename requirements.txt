@@ -5,6 +5,7 @@ matplotlib
 seaborn
 numpy
 scikit-learn
+pysqlite
 sqlite3
 time
 re

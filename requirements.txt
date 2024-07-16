@@ -1,4 +1,4 @@
-dash==
+dash
 dash_bootstrap_components
 pandas
 matplotlib
